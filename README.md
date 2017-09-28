@@ -1,6 +1,6 @@
 # kronk
 
-Simple(er) text searching. A companion app to [Marvin](https://github.com/kcmerrill/marvin).
+Simple(r) text searching. A companion app to [Marvin](https://github.com/kcmerrill/marvin).
 
 [![Build Status](https://travis-ci.org/kcmerrill/kronk.svg?branch=master)](https://travis-ci.org/kcmerrill/kronk) [![Join the chat at https://gitter.im/kcmerrill/kronk](https://badges.gitter.im/kcmerrill/kronk.svg)](https://gitter.im/kcmerrill/kronk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
