@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/kcmerrill/kronk.svg?branch=master)](https://travis-ci.org/kcmerrill/kronk) [![Join the chat at https://gitter.im/kcmerrill/kcmerrillkronk](https://badges.gitter.im/kcmerrill/kronk.svg)](https://gitter.im/kcmerrill/kcmerrillkronk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/kcmerrill/kronk.svg?branch=master)](https://travis-ci.org/kcmerrill/kronk) [![Join the chat at https://gitter.im/kcmerrillkronk](https://badges.gitter.im/kronk.svg)](https://gitter.im/kcmerrillkronk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ![kronk](assets/kronk.jpg "kronk")
 
