@@ -31,7 +31,6 @@ func NewKronk(args []string, content []byte) *Kronk {
 	// double check the argument length first
 	if len(args) == 0 {
 		amConfused("error", "Please provide a 'id:expression'")
-		return nil
 	}
 
 	// make sure we have something to do
@@ -152,7 +151,7 @@ func (k *Kronk) Display(out, del string, passThru bool) {
 }
 
 func (k *Kronk) inline(del string) {
-	for row := 0; row < len(k.matches[k.cols[0]])-1; row++ {
+	for row := 0; row < len(k.matches[k.cols[0]]); row++ {
 		data := make([]string, 0)
 		for _, col := range k.cols {
 			data = append(data, col+":"+k.matches[col][row])
@@ -162,7 +161,7 @@ func (k *Kronk) inline(del string) {
 }
 
 func (k *Kronk) simple() {
-	for row := 0; row < len(k.matches[k.cols[0]])-1; row++ {
+	for row := 0; row < len(k.matches[k.cols[0]]); row++ {
 		data := make([]string, 0)
 		data = append(data, k.matches[k.cols[0]][row])
 		fmt.Println(strings.Join(data, ""))
@@ -172,7 +171,7 @@ func (k *Kronk) simple() {
 func (k *Kronk) csv(del string) {
 	// print out headers
 	fmt.Println(strings.Join(k.cols, del))
-	for row := 0; row < len(k.matches[k.cols[0]])-1; row++ {
+	for row := 0; row < len(k.matches[k.cols[0]]); row++ {
 		data := make([]string, 0)
 		for _, col := range k.cols {
 			data = append(data, k.matches[col][row])
