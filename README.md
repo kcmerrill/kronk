@@ -1,10 +1,11 @@
+[![Build Status](https://travis-ci.org/kcmerrill/kronk.svg?branch=master)](https://travis-ci.org/kcmerrill/kronk) [![Join the chat at https://gitter.im/kcmerrill/kronk](https://badges.gitter.im/kcmerrill/kronk.svg)](https://gitter.im/kcmerrill/kronk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+![kronk](assets/kronk.jpg "kronk")
+
 # kronk
 
 Simple(r) text searching. A [Marvin](https://github.com/kcmerrill/marvin) companion app.
 
-[![Build Status](https://travis-ci.org/kcmerrill/kronk.svg?branch=master)](https://travis-ci.org/kcmerrill/kronk) [![Join the chat at https://gitter.im/kcmerrill/kronk](https://badges.gitter.im/kcmerrill/kronk.svg)](https://gitter.im/kcmerrill/kronk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-![kronk](assets/kronk.jpg "kronk")
 
 ## Binaries || Installation
 
