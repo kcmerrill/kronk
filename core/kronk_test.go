@@ -1,6 +1,7 @@
 package core
 
 import (
+	"fmt"
 	"strings"
 	"testing"
 )
@@ -28,21 +29,22 @@ func TestNewKronk(t *testing.T) {
 			t.Fatalf("The regexes are not being properly set")
 		}
 	}
+}
 
+func TestSearch(t *testing.T) {
 	// ok, lets test the kronkin
-	/*k = NewKronk([]string{`hello:Hello:(.*?)`}, []byte("Hello:world!\nHow are you?\nHello:Good?\nGreat to hear!"))
+	k := NewKronk([]string{`hi:Hello:(world|Good)`}, []byte("Hello:world!\nHow are you?\nHello:Good?\nGreat to hear!"))
 	fmt.Println(k.matches)
 	if len(k.matches) != 1 {
 		fmt.Println(len(k.matches))
-		t.Fatalf("Only gave 1 column present, however, 1 was not found. +/-")
+		t.Fatalf("1 column to search, however, 1 was not found. +/-")
 	}
 
-	if matches, exists := k.matches["hello"]; exists {
-		if matches[0] != "world!" {
-			t.Fatalf("The column hello should have had multiple matches")
+	if matches, exists := k.matches["hi"]; exists {
+		if matches[0] != "world" {
+			t.Fatalf("The column hi should have had multiple matches, and matched on world")
 		}
 	} else {
 		t.Fatalf("hello, a column provided, should exist")
 	}
-	*/
 }
