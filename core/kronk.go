@@ -115,7 +115,6 @@ func (k *Kronk) validate() (bool, error) {
 	// godspeed ...
 	count := len(k.matches[k.cols[0]])
 	for idx := range k.matches {
-		fmt.Println("checking", idx)
 		if len(k.matches[idx]) > count {
 			return false, fmt.Errorf("'" + idx + "' matches greater than '" + k.cols[0] + "' withnumber of matches")
 		}
@@ -123,8 +122,6 @@ func (k *Kronk) validate() (bool, error) {
 		if len(k.matches[idx]) < count {
 			return false, fmt.Errorf("'" + idx + "' matches less than '" + k.cols[0] + "' with number of matches")
 		}
-
-		fmt.Println(k.cols, len(k.matches[idx]), count)
 	}
 	return true, nil
 }
