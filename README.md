@@ -4,6 +4,8 @@
 
 # kronk
 
+[![Join the chat at https://gitter.im/kcmerrillkronk/Lobby](https://badges.gitter.im/kcmerrillkronk/Lobby.svg)](https://gitter.im/kcmerrillkronk/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Simple(r) text searching. A [Marvin](https://github.com/kcmerrill/marvin) companion app.
 
 
